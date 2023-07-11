@@ -37,9 +37,33 @@
 .poster-container{
     display: flex;
     flex-direction: row-reverse;
-    background-color: papayawhip
+    background-color: papayawhip;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .poster-img{
     width: 350px;
+    padding-top: 20px;
 }
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.description{
+    padding-top: 18px;
+    color: rgb(146, 133, 133);
+}
+
+.btn{
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(214, 102, 120);
+    border: none;
+    border-radius: 8px;
+}
+
