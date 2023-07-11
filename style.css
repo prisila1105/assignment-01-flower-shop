@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-container{
@@ -14,10 +15,7 @@
     
 }
     .menu{
-        display: flex;
-    
-        
-        
+        display: flex; 
     }
 
 .item{
@@ -33,6 +31,7 @@
     cursor: pointer;
     color: brown;
 }
+
 
 .poster-container{
     display: flex;
@@ -74,45 +73,53 @@
     align-items: center;
     background-color: rgb(233, 219, 196);
     justify-content: center;
+    padding-top: 30px;
 }
 .highlight{
     color: rgb(214, 102, 120);
 }
 .red-rose{
-    background-size: 30px;
+   
+}
+
+.clr-title{
+    font-size: 25px;
+    font-weight: bold;
+
 }
 .footer-container{
     display: flex;
     background-color: black;
-    padding: 70px 70px;
+    padding: 40px 40px;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
     
    
-    
 }
 .footer-text{
-    color: white;
+    color: rgb(199, 183, 160);
     justify-content: center;
-    margin: 0px auto;
-    width: 500px;
-    line-height: 25px;
-    border: 10px;
+    
     
     
 }
 .small{
     color: rgb(146, 133, 133);
-    margin-top: 30px;
-    text-align: center;
+    line-height: 55px;
 }
 .footer-desc{
-    line-height: 30px;
+    line-height: 20px;
+    padding-top: 10px;
 
-    
-    
+     
 }
 .footer-title{
     text-align: center;
+}
+.para-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
