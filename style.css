@@ -33,3 +33,13 @@
     cursor: pointer;
     color: brown;
 }
+
+.poster-container{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: papayawhip
+
+}
+.poster-img{
+    width: 350px;
+}
