@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: palevioletred;
+    background-color: rgb(216, 112, 147);
     padding: 25px;
     list-style: none;
     display: flex;
@@ -65,5 +65,54 @@
     background-color: rgb(214, 102, 120);
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    
 }
+.redflower-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(233, 219, 196);
+    justify-content: center;
+}
+.highlight{
+    color: rgb(214, 102, 120);
+}
+.red-rose{
+    background-size: 30px;
+}
+.footer-container{
+    display: flex;
+    background-color: black;
+    padding: 70px 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+    
+}
+.footer-text{
+    color: white;
+    justify-content: center;
+    margin: 0px auto;
+    width: 500px;
+    line-height: 25px;
+    border: 10px;
+    
+    
+}
+.small{
+    color: rgb(146, 133, 133);
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-desc{
+    line-height: 30px;
 
+    
+    
+}
+.footer-title{
+    text-align: center;
+}
